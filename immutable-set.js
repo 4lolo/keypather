@@ -1,4 +1,4 @@
-var defaults = require('101/defaults')
+var defaults = require('./lib/defaults')
 
 var defaultShallowClone = require('./lib/default-shallow-clone')
 var keypathReducer = require('./lib/keypath-reducer.js')

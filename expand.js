@@ -1,6 +1,6 @@
 var debug = require('debug')('keypather:expand')
-var exists = require('101/exists')
-var defaults = require('101/defaults')
+var exists = require('./lib/exists')
+var defaults = require('./lib/defaults')
 
 var createObj = require('./lib/create-obj')
 var keypathReducer = require('./lib/keypath-reducer.js')

@@ -1,6 +1,6 @@
 /* eslint-env jest */
 var debug = require('debug')('keypather:set.test')
-var exists = require('101/exists')
+var exists = require('./exists')
 var deepEqual = require('fast-deep-equal')
 var deepFreeze = require('deep-freeze-strict')
 

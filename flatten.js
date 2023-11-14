@@ -1,7 +1,7 @@
 var debug = require('debug')('keypather:expand')
-var defaults = require('101/defaults')
-var exists = require('101/exists')
-var isObject = require('101/is-object')
+var defaults = require('./lib/defaults')
+var exists = require('./lib/exists')
+var isObject = require('./lib/is-object')
 
 var keyRequiresBracketNotation = require('./lib/key-requires-bracket-notation')
 
